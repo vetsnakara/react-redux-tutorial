@@ -31,14 +31,14 @@ module.exports = {
   plugins: [
     new CleanWebpackPlugin(),
     new HtmlWebpackPlugin({
-      title: "Simple React Todo App with Routing",
+      title: "Simple Blog with React and Redux",
       template: "./src/index.html"
     })
   ],
 
   output: {
     path: path.resolve(__dirname, "..", "dist"),
-    filename: "bundle.js",
-    publicPath: "/"
+    filename: "bundle.js"
+    // publicPath: "/"
   }
 };
