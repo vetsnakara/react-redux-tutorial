@@ -4,6 +4,8 @@ import { connect } from "react-redux";
 // import axios from "axios";
 import Pokeball from "../pokeball.png";
 
+console.log(Pokeball);
+
 class Home extends Component {
   // state = { posts: [] };
 
@@ -18,8 +20,6 @@ class Home extends Component {
   // }
 
   render() {
-    console.log(this.props);
-
     const { posts } = this.props;
 
     const postList = posts.length ? (
