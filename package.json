@@ -2,7 +2,7 @@
   "name": "my-project",
   "version": "1.0.0",
   "description": "",
-  "homepage": "http://vetsnakara.github.io/simple-react-todo",
+  "homepage": "http://vetsnakara.github.io/react-redux-tutorial",
   "main": "index.js",
   "scripts": {
     "start": "webpack-dev-server --config ./build-utils/webpack.config.js --env.env=dev",
